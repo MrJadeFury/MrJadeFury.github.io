@@ -59,12 +59,12 @@ html {
 }
 
 .ccontainer {
-	color: #e3f2fd;
+    color: #272838;
 }
 
-.section-content div h2{
-	color: #01579b;
-	text-align: center;
+.section-content div h2 {
+    color: #272838;
+    text-align: center;
 }
 
 #section-cuteness-content div img{
@@ -83,7 +83,7 @@ html {
 }
 
 .container [href='#'] {
-	color: #01579b;
+    color: #272838;
 }
 
 h1 {
@@ -96,7 +96,7 @@ h1 {
 }
 
 #title-section-1 .ccontainer, #section-cuteness .ccontainer, #section-color .ccontainer, #section-voice .ccontainer {
-	color: #01579b;
+    color: #272838;
 }
 
 #section-cuteness {
@@ -129,7 +129,6 @@ h1 {
 	background-position-y: -300px;
 	background-repeat: no-repeat;
 	background-position-x: 50%;
-    text-align: right;
 	width: auto;
 }
 
