@@ -1,0 +1,165 @@
+html {
+	padding: 0;
+	margin: 0;
+	font-family: 'Signika', sans-serif;
+	background: #bbdefb;
+}
+
+.ccontainer {
+	padding: 100px 0 100px 0;
+	margin: 0;
+	width: 80%
+}
+
+.section-divider h1 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.ccontainer p {
+	font-size: 25px;
+}
+
+.ccontainer {
+	margin: 0 auto;
+	max-width: 1280px;
+	width: 90%;
+}
+
+#nav-mobile li a {
+	font-size: 30px;
+}
+
+@media only screen and (min-width: 601px) {
+	.ccontainer {
+		width: 85%;
+	}
+}
+
+@media only screen and (min-width: 993px) {
+	.ccontainer {
+		width: 70%;
+	}
+}
+
+@media only screen and (max-width: 1980px) {
+	.ccontainer {
+		width: 100%;
+	}
+	.container {
+		width: 100%;
+	}
+}
+
+.section, .section-divider, .section-content {
+	padding: 0;
+	margin: 0;
+	border-bottom: 5px solid #01579b;
+	text-shadow: 2px 2px 5px #000000;
+}
+
+.ccontainer {
+	color: #e3f2fd;
+}
+
+.section-content div h2{
+	color: #01579b;
+	text-align: center;
+}
+
+#section-cuteness-content div img{
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+#section-color-content div img {
+	display: block;
+	margin: 0 auto 20px auto;
+}
+
+#section-voice-content {
+	display: block;
+	margin: 20 auto 20 auto;
+}
+
+.container [href='#'] {
+	color: #01579b;
+}
+
+h1 {
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.container-img {
+	column-count: 4;
+}
+
+#title-section-1 .ccontainer, #section-cuteness .ccontainer, #section-color .ccontainer, #section-voice .ccontainer {
+	color: #01579b;
+}
+
+#section-cuteness {
+	background-image: url(imgs/hibiki1.jpg);
+	background-position-y: -200px;
+	background-repeat: no-repeat;
+	background-position-x:50%;
+	width: auto;
+}
+
+#section-divider-1 {
+	background-image: url(imgs/hibiki3.jpeg);
+	background-position-y: -100px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
+#title-section-1 {
+	background: url(imgs/kantai1.png);
+	background-position-y: -200px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	border-top: 5px solid #01579b;
+}
+
+#section-divider-2 {
+	background: url(imgs/hibiki2.jpg);
+	background-position-y: -300px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
+#section-color {
+	background-image: url(imgs/hibiki4.jpg);
+	background-position-y: -100px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
+#section-divider-3 {
+	background: url(imgs/hibiki5.png);
+	background-position-y: -100px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
+#section-voice {
+	background-image: url(imgs/hibiki6.jpg);
+	background-position-y: -100px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
+#title-section-2 {
+	background-image: url(imgs/ts2hibiki.jpg);
+	background-position-y: -300px;
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	width: auto;
+}
+
