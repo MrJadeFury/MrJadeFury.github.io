@@ -112,6 +112,7 @@ h1 {
 	background-position-y: -100px;
 	background-repeat: no-repeat;
 	background-position-x: 50%;
+    text-align: right;
 	width: auto;
 }
 
@@ -128,6 +129,7 @@ h1 {
 	background-position-y: -300px;
 	background-repeat: no-repeat;
 	background-position-x: 50%;
+    text-align: right;
 	width: auto;
 }
 
@@ -137,6 +139,7 @@ h1 {
 	background-repeat: no-repeat;
 	background-position-x: 50%;
 	width: auto;
+    text-align: right;
 }
 
 #section-divider-3 {
@@ -153,6 +156,7 @@ h1 {
 	background-repeat: no-repeat;
 	background-position-x: 50%;
 	width: auto;
+    text-align: right;
 }
 
 #title-section-2 {
