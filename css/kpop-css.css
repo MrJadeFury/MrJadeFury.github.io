@@ -1,0 +1,255 @@
+/* Real Site */
+/* KPop Page */
+:root{
+    --main_fg: #2fd6a1;
+    --main_bg: #e0e0e0;
+    --secondary_fg: #2a3531;
+    --secondary_bg: #ffffff;
+    --main_txt: #ffffff;
+    --hover_color: #ffffff;
+}
+
+body{
+    font-family: 'Sarabun', 'Noto Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main_bg);
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+/* End of Global */
+
+/* Kpop Header */
+header{
+    background: var(--main_fg);
+    color: var(--secondary_fg);
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+header a{
+    font-family: 'Noto Sans', 'Sarabun', Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--secondary_fg);
+    text-transform: uppercase;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+header #kpop-branding{
+    float: left;
+}
+
+header #kpop-branding h1{
+    margin: 0;
+}
+
+header #kpop-branding h1 span{
+    color: white;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a{
+    color: var(--hover_color);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #4cb277;
+    font-weight: bold;
+}
+/* End of Kpop Header */
+
+/* Showcase */
+.showcase{
+    min-height: 500px;
+    text-align: center;
+    color: var(--main_txt);
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+/*Kpop Title Showcase*/
+#kpop-title-showcase{
+    background: url('../imgs/youmu2.jpg') no-repeat 0 -300px;
+    color: black;
+}
+/*End of Kpop Title Showcase*/
+
+/*Quote Showcase 1*/
+#kpop-quote-showcase-1{
+    background: url('../imgs/kobayashi.png') no-repeat 0 -400px;
+    color: black;
+}
+/*End of Quote Showcase 1*/
+
+/*Twice Title Shocase*/
+#twice-title-showcase{
+    background: url('../imgs/twice.jpg') no-repeat 0 -400px;
+    color: black;
+}
+
+#twice-title-showcase h1{
+    padding-top: 70px;
+}
+/*End of Twice Title Showcase*/
+
+/*Loona Title Showcase*/
+#loona-title-showcase{
+    background: url('../imgs/loona.jpg') no-repeat 0 -75px;
+    color: black;
+}
+
+#loona-title-showcase h1{
+    padding-top: 30px;
+}
+/*End of Loona Title Showcase*/
+
+/*WJSN Title Showcase*/
+#wjsn-title-showcase{
+    background: url('../imgs/wjsn.jpg') no-repeat 0 -200px;
+    color: black;
+}
+
+.showcase h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.showcase h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.showcase p{
+    font-size: 25px;
+}
+/* End of Showcase */
+
+/* My Kpop Journey */
+#kpop-journey{
+    background-color: var(--secondary_bg);
+    border-bottom: var(--secondary_fg) 5px solid;
+    padding-bottom: 20px;
+}
+
+#kpop-journey h2{
+    margin: 10px 0 10px 0;
+    font-size: 75px;
+    text-align: center;
+}
+
+#kpop-journey p{
+    font-size: 18px;
+}
+/* End of My Kpop Journey */
+
+/* Group Nav Bar */
+#group-nav-bar{
+    background: var(--main_fg);
+    color: var(--secondary_fg);
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+#group-nav-bar a{
+    font-family: 'Noto Sans', 'Sarabun', Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--secondary_fg);
+    text-transform: uppercase;
+}
+
+#group-nav-bar li{
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+#group-nav-bar #kpop-nav-bar-title{
+    float: left;
+}
+
+#group-nav-bar #kpop-nav-bar-title h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+#group-nav-bar #kpop-nav-bar-title h1 span{
+    color: white;
+}
+
+#group-nav-bar nav{
+    float: right;
+    margin-top: 10px;
+}
+
+#group-nav-bar a:hover{
+    color: #4cb277;
+    font-weight: bold;
+}
+/* End of Group Nav Bar */
+
+/* Kpop Group Sections */
+/* Twice Section */
+#section-twice{
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+/* Blog Updates */
+#blog-updates {
+    padding: 15px;
+    color: black;
+    background: var(--main_fg);
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+    #blog-updates h1 {
+        float: left;
+    }
+
+    #blog-updates form {
+        float: right;
+        margin-top: 15px;
+    }
+
+    #blog-updates input[type=email] {
+        padding: 4px;
+        height: 25px;
+        width: 250px;
+    }
+
+/* Footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: var(--secondary_bg);
+    text-align: center;
+}

@@ -1,0 +1,251 @@
+/* Real Site */
+/* Homepage */
+:root {
+    --main_fg: #2fd6a1;
+    --main_bg: #e0e0e0;
+    --secondary_fg: #2a3531;
+    --secondary_bg: #ffffff;
+    --main_txt: #ffffff;
+    --hover_color: #ffffff;
+}
+
+body{
+    font-family: 'Sarabun', 'Noto Sans', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main_bg);
+}
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button-1{
+    height: 38px;
+    background: var(--secondary_fg);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: var(--main_fg);
+}
+
+/* Header */
+header{
+    background: var(--main_fg);
+    color: var(--secondary_fg);
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+header a{
+    font-family: 'Noto Sans', 'Sarabun', Arial, sans-serif;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--secondary_fg);
+    text-transform: uppercase;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 15px 0 15px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header #branding h1 span{
+    color: white;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .current a{
+    color: var(--hover_color);
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #4cb277;
+    font-weight: bold;
+}
+
+/* Showcase */
+.showcase{
+    min-height: 500px;
+    text-align: center;
+    color: var(--main_txt);
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+#titleshowcase{
+    background: url('../imgs/youmu.jpg') no-repeat 0 -400px;
+}
+
+#quoteshowcase-1{
+    background: url('../imgs/astolfo.png') no-repeat 0 -400px;
+    color: black;
+}
+
+#quoteshowcase-2{
+    background: url('../imgs/konata.jpg') no-repeat 0 -400px;
+    color: black;
+}
+
+#quoteshowcase-3{
+    background: url('../imgs/mustang.jpg') no-repeat 0 -400px;
+    color: black;
+}
+
+.showcase h1{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.showcase h2{
+    margin-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.showcase p{
+    font-size: 25px;
+}
+
+/* Welcome Message */
+#welcome-message{
+    background-color: var(--secondary_bg);
+    border-bottom: var(--secondary_fg) 5px solid;
+    padding-bottom: 20px;
+}
+
+#welcome-message h2{
+    margin: 10px 0 10px 0;
+    font-size: 75px;
+    text-align: center;
+}
+
+#welcome-message p{
+    font-size: 18px;
+}
+
+/* Directory */
+#directory{
+    background-color: var(--main_bg);
+    margin-top: 20px;
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+#directory h2{
+    font-size: 75px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    padding: 0;
+}
+
+#directory .box-1{
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding: 10px 50px 10px 50px;
+}
+
+#directory .box-1 img{
+    width: 500px;
+    height: 500px;
+}
+
+#directory h3{
+    font-size: 60px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    float: none;
+}
+
+#directory p{
+    font-size: 20px;
+    float: none;
+}
+
+/* Social Media */
+#social{
+    background-color: var(--main_bg);
+    margin-top: 20px;
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+#social h2{
+    font-size: 75px;
+    text-align: center;
+    margin: 10px 0 10px 
+}
+
+#social .box-2{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px 20px 10px 20px;
+}
+
+#social .box-2 img{
+    width: 300px;
+    height: 300px;
+}
+
+#social h3{
+    font-size: 40px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+/* Blog Updates */
+#blog-updates {
+    padding: 15px;
+    color: black;
+    background: var(--main_fg);
+    border-bottom: var(--secondary_fg) 5px solid;
+}
+
+#blog-updates h1{
+    float: left;
+}
+
+#blog-updates form{
+    float: right;
+    margin-top: 15px;
+}
+
+#blog-updates input[type=email]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Footer */
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: black;
+    background-color: var(--secondary_bg);
+    text-align: center;
+}
